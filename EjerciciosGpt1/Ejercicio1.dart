@@ -7,4 +7,8 @@
 void main() {
   int edad = 25;
   print("Tienes " + edad.toString() + " años.");
+
+  //Es la opcion cambiando un numero a un string, pero se pueden interpolar asi:
+
+  print("Tienes $edad años.");
 }
